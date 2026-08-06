@@ -1,0 +1,76 @@
+body{
+
+    margin:0;
+    background:#111;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+header{
+
+    background:#c8a23a;
+    color:black;
+    text-align:center;
+    padding:20px;
+
+}
+
+#teams{
+
+    display:grid;
+    grid-template-columns:repeat(6,1fr);
+    gap:12px;
+
+    padding:20px;
+
+}
+
+.team{
+
+    background:#222;
+    border:2px solid #c8a23a;
+
+    border-radius:10px;
+
+    padding:20px;
+
+    text-align:center;
+
+    font-size:22px;
+
+    font-weight:bold;
+
+}
+
+footer{
+
+    background:#1b1b1b;
+
+    text-align:center;
+
+    padding:20px;
+
+}.team{
+    cursor:pointer;
+    transition:.25s;
+}
+
+.team:hover{
+    transform:scale(1.05);
+}
+
+.sold{
+    background:#555;
+    color:#999;
+    border-color:#888;
+}.team-name{
+    font-size:24px;
+    font-weight:bold;
+}
+
+.owner{
+    margin-top:10px;
+    font-size:14px;
+    color:#ffd34d;
+}
